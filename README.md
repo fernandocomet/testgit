@@ -1,5 +1,8 @@
 # Mi primer pull request
 
+![](yay.gif)
+
+
 1. Ir al repositorio del ejercicio
 
 2. Haz clic en "Fork"
@@ -8,9 +11,9 @@
 
    Week-1 -> day-1
 
-4. Clona el repositorio forqueado en la carpeta correspondiente (day-1). Cuando haces git clone url, se crea ya una carpeta con el nombre del lab automáticamente
+4. Clona el repositorio forqueado en la carpeta correspondiente (day-1). Cuando haces git clone **aqui-va-la-url**, se crea ya una carpeta con el nombre del lab automáticamente
 
-5. Ya puedes abrir la carpeta en vsc para empezar a trabajar (en tu consola code .) Si no te funciona el comando code en la terminal: https://stackoverflow.com/questions/29971053/how-to-open-visual-studio-code-from-the-command-line-on-osx
+5. Ya puedes abrir la carpeta en vsc para empezar a trabajar (en tu consola, **code .**) Si no te funciona el comando code en la terminal: https://stackoverflow.com/questions/29971053/how-to-open-visual-studio-code-from-the-command-line-on-osx
 
 6. Empezamos a trabajar en nuestro código, siguiendo las indicaciones del README
 
@@ -18,19 +21,21 @@
 
    - git status
 
-     Sirve para ver los archivos en los que hemos realizado cambios
+     Sirve para ver los archivos en los que hemos realizado cambios. No es necesario usarlo siempre, pero sirve como guía para ver los archivos que hemos tocado desde el ultimo commit
 
    - git add . 
 
      Añades todos los cambios para ser guardados en nuestro repositorio
 
-   - git commit -m "Added"
+   - git commit -m "Added html structure and css structure"
 
      Guardas los cambios con un mensaje 
 
    - git push origin master
 
      Empujas los cambios de tu repositorio local a tu repositorio remoto, es decir, a la copia del repo del ejercicio, que has forqueado al principio
+    
+    * Para configurar nombre y email asociados a git: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 
 8. Hacemos un Pull Request, para que el repositorio original los reciba. Cuando cliquemos, nos aparece un formulario:
 
